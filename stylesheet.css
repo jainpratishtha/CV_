@@ -1,0 +1,57 @@
+body{margin: 0px;
+ text-align: center;
+
+}
+h1{font-family: 'Sacramento', cursive;
+    color:#11999E;
+}
+.top-container{
+    background-color:#EAF6F6;
+    padding-top:100px;
+padding-bottom: 0px;
+    height: 85%;
+    
+}
+.middle-container{
+   
+}
+hr{
+    border: dotted #9ea3a2 6px;
+    border-bottom: none;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.bottom-container{
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+        padding-top: 20px;
+    align-content: center;
+    background-color: #66BFBF;
+}
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    right:400px;
+    padding-bottom: 15px;
+
+}
+.bottom-cloud{
+    position: absolute;
+  left:450px;
+  
+    bottom: 500px;
+    
+}
+.top-cloud{ 
+    position: absolute;
+    top:30px;
+    left:850px;
+}
+.images{
+    width:100px;
+    height: 100px;
+}
+#my{
+zoom: 100%;
+}
