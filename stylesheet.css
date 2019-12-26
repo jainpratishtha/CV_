@@ -1,5 +1,6 @@
 body{margin: 0px;
  text-align: center;
+    
 
 }
 h1{font-family: 'Sacramento', cursive;
@@ -8,7 +9,7 @@ h1{font-family: 'Sacramento', cursive;
 .top-container{
     background-color:#EAF6F6;
     padding-top:100px;
-padding-bottom: 0px;
+/*padding-bottom: 0px;*/
     height: 85%;
     
 }
@@ -32,7 +33,7 @@ hr{
 .mountain{
     position: absolute;
     bottom: 0px;
-    right:400px;
+    right:450px;
     padding-bottom: 15px;
 
 }
@@ -54,4 +55,32 @@ hr{
 }
 #my{
 zoom: 100%;
+}
+@media  only screen and (max-width:1250px){
+    .mountain{
+        position:static;
+        text-align: center;
+        height: 30%;
+        width: 50%;
+        
+    }
+    .top-cloud{
+           position:static;
+        margin-left: 500px;
+        text-align: center;
+        height: 8%;
+        width: 30%;
+    }
+    
+    .bottom-cloud{
+          position:static;
+        text-align: center;
+        margin-right: 500px;
+                height: 8%;
+        width: 30%;
+    }
+    .top-container{
+        height: 80%;
+    }
+    
 }
