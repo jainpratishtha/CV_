@@ -6,6 +6,7 @@ body{margin: 0px;
 h1{font-family: 'Sacramento', cursive;
     color:#11999E;
 }
+
 .top-container{
     background-color:#EAF6F6;
     padding-top:100px;
@@ -13,8 +14,27 @@ h1{font-family: 'Sacramento', cursive;
     height: 85%;
     
 }
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    right:450px;
+    padding-bottom: 15px;
+
+}
+.bottom-cloud{
+    position: absolute;
+  left:450px;
+     bottom: 500px;
+    
+}
+.top-cloud{ 
+    position: absolute;
+    top:30px;
+    left:850px;
+    
+}
 .middle-container{
-   
+   background-color:white; 
 }
 hr{
     border: dotted #9ea3a2 6px;
@@ -30,57 +50,45 @@ hr{
     align-content: center;
     background-color: #66BFBF;
 }
-.mountain{
-    position: absolute;
-    bottom: 0px;
-    right:450px;
-    padding-bottom: 15px;
 
-}
-.bottom-cloud{
-    position: absolute;
-  left:450px;
-  
-    bottom: 500px;
-    
-}
-.top-cloud{ 
-    position: absolute;
-    top:30px;
-    left:850px;
-}
 .images{
     width:100px;
     height: 100px;
 }
-#my{
-zoom: 100%;
-}
-@media  only screen and (max-width:1250px){
-    .mountain{
-        position:static;
-        text-align: center;
-        height: 30%;
-        width: 50%;
-        
-    }
-    .top-cloud{
+
+@media  only screen and (max-width:1400px){
+        .top-cloud{
            position:static;
         margin-left: 500px;
         text-align: center;
-        height: 8%;
-        width: 30%;
+    
     }
     
     .bottom-cloud{
           position:static;
         text-align: center;
         margin-right: 500px;
-                height: 8%;
-        width: 30%;
+    }
+    .mountain{
+/*        position: static;*/
+        left:400px;
+        text-align: center;
+    }
+     
+}
+@media  only screen and (max-width:1300px){
+   
+.mountain{
+        position:static;
+        text-align: center;
+/*
+        height: 30%;
+        width: 50%;
+*/
+        
     }
     .top-container{
-        height: 80%;
+        height: 85%;
     }
     
 }
