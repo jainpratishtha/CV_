@@ -1,0 +1,111 @@
+body{margin: 0px;
+ text-align: center;
+    
+
+}
+.profile,.education,.skills,.projects,.employment_History{
+        margin: auto 400px;
+    }
+
+
+h1{font-family: 'Sacramento', cursive;
+    color:#11999E;
+}
+
+.top-container{
+    background-color:#EAF6F6;
+    padding-top:100px;
+/*padding-bottom: 0px;*/
+    height: 85%;
+    
+}
+.mountain{
+    position: absolute;
+    bottom: 0px;
+    right:450px;
+    padding-bottom: 15px;
+
+}
+.bottom-cloud{
+    position: absolute;
+  left:450px;
+     bottom: 500px;
+    
+}
+.top-cloud{ 
+    position: absolute;
+    top:30px;
+    left:850px;
+    
+}
+ 
+.middle-container{
+   background-color:white; 
+}
+hr{
+    border: dotted #9ea3a2 6px;
+    border-bottom: none;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.bottom-container{
+    height: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+        padding-top: 20px;
+    align-content: center;
+    background-color: #66BFBF;
+}
+
+.images{
+    width:100px;
+    height: 100px;
+}
+
+@media  only screen and (max-width:1400px){
+        .top-cloud{
+           position:static;
+        margin-left: 500px;
+        text-align: center;
+    
+    }
+    
+    .bottom-cloud{
+          position:static;
+        text-align: center;
+        margin-right: 500px;
+    }
+    .mountain{
+        
+/*        padding-bottom: -300px;*/
+/*        position: static;*/
+        position:static;
+        left:400px;
+        text-align: center;
+        margin-bottom: -30px
+/*
+        
+        
+          position: absolute;
+    bottom: 0px;
+    right:450px;
+    padding-bottom: 15px;
+        
+        height: 30%;
+        width: 50%;
+*/
+        
+    }
+    .top-container{
+        height: 85%;
+         padding-top:0px;
+    }
+    .profile,.education,.skills,.projects,.employment_History{
+        margin: auto 200px;
+    }
+    hr{
+         margin-left: 500px;
+    margin-right: 500px;
+    }
+    
+}
